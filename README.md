@@ -2,7 +2,7 @@
 A package to easily obtain a images and point clouds from the Azure Kinect camera ROS node
 
 ## Installation:
-Install [Azure Kinect ROS driver](https://github.com/microsoft/Azure_Kinect_ROS_Driver)
+Install [Azure Kinect ROS driver](https://github.com/microsoft/Azure_Kinect_ROS_Driver), then:
 ```
 cp -r srv Azure Kinect ROS driver/
 cp launch/driver_azcam_front.launch Azure Kinect ROS driver/launch
