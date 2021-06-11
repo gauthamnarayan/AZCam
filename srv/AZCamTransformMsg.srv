@@ -1,0 +1,10 @@
+float64 cameraX
+float64 cameraY
+float64 cameraZ
+string sourceFrame
+string targetFrame
+---
+float64 worldX
+float64 worldY
+float64 worldZ
+string frame
