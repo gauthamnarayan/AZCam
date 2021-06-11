@@ -10,6 +10,13 @@ pip install -e setup.py
 ```
 
 ## Usage
+
+Launch the azure kinect ROS driver:
+```
+roslaunch azure_kinect_ros_driver driver_azcam_front.launch fps:=15 color_resolution:=720P
+```
+
+Python usage:
 ```
 import AZcam
 # Init a new ROS node if there is no other ROS node started within your program.
