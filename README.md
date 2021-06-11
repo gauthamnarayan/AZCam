@@ -13,6 +13,8 @@ pip install -e setup.py
 
 Launch the azure kinect ROS driver:
 ```
+cd azure_kinect_ws # This is workspace where the Azure_Kinect_ROS_Driver is installed
+source devel/setup.bash
 roslaunch azure_kinect_ros_driver driver_azcam_front.launch fps:=15 color_resolution:=720P
 ```
 
